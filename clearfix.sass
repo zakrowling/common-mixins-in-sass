@@ -1,0 +1,15 @@
+// Use for modern browsers
+@mixin cf
+  &:after
+    content: "" 
+    display: table
+    clear: both
+
+// Use if need IE 6/7+ support
+@mixin cf-ie
+  *zoom: 1
+  &:before, &:after
+    content: " "
+    display: table
+  &:after
+    clear: both
