@@ -1,2 +1,2 @@
-# Common Mixins in SASS
+# Common Snippets and Mixins in SASS
 - Clearfix
