@@ -1,3 +1,4 @@
-# Common Snippets and Mixins in SASS
+# Common Snippets, Helpers and Mixins in SASS
 - Clearfix
 - Media queries
+- PX to REM conversion
