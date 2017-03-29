@@ -1,0 +1,14 @@
+// Rem Conversions
+// The UI is based on a 16px base, however this mixin allows us to let SASS calculate this for us on the fly. You can then instead more naturally enter the px/pt value instead of calculating REM manually (i.e. 32 automatically throws in 2rem).
+
+@function rem($size)
+  $rem-size: $size / 16
+  @return #{$rem-size}rem  
+=font-size($size)
+  font-size: $size + px
+  font-size: rem($size)
+  
+// Calc
+=calc($property, $expression)
+  #{$property}: -webkit-calc(#{$expression}) 
+  #{$property}: calc(#{$expression}) 
