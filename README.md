@@ -1,4 +1,5 @@
 # Common Snippets, Helpers and Mixins in SASS
-- Clearfix
+- Simple grid
 - Media queries
 - PX to REM conversion
+- Clearfix
